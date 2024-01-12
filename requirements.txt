@@ -19,6 +19,6 @@ scikit_learn==1.1.2
 seaborn==0.11.2
 setuptools==62.1.0
 stmol==0.0.9
-streamlit==1.11.1
+streamlit==1.30.0
 tensorflow==2.11.1
 tqdm==4.64.0
