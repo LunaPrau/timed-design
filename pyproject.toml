@@ -27,3 +27,6 @@ dependencies = [
     "tensorflow==2.13.0",
     "tqdm==4.64.0"
 ]
+
+[project.scripts]
+make-frame-dataset = "aposteriori.data_prep.cli:cli"
