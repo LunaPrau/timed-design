@@ -365,7 +365,7 @@ def create_flat_dataset_map(
                 for chain_id in dataset_file[pdb_code].keys():
                     # Sort by residue int rather than str
                     residue_n = np.array(
-                        list(dataset_file[pdb_code][chain_id].keys()), dtype=np.int
+                        list(dataset_file[pdb_code][chain_id].keys()), dtype=int
                     )
                     residue_n.sort()
                     residue_n = np.array(residue_n, dtype=str)
